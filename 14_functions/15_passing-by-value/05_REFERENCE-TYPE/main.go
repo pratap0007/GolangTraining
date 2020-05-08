@@ -4,12 +4,15 @@ import "fmt"
 
 func main() {
 	m := make(map[string]int)
-	changeMe(m)
+	t := changeMe(m)
 	fmt.Println(m["Todd"]) // 44
+	fmt.Println(t)
 }
 
-func changeMe(z map[string]int) {
+func changeMe(z map[string]int) map[string]int {
 	z["Todd"] = 44
+	z["nn"] = 344
+	return z
 }
 
 /*

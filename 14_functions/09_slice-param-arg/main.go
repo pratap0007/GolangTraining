@@ -10,8 +10,9 @@ func main() {
 
 func average(sf []float64) float64 {
 	total := 0.0
-	for _, v := range sf {
-		total += v
+	for _, x := range sf {
+		total = total + x
+		fmt.Println(x)
 	}
 	return total / float64(len(sf))
 }

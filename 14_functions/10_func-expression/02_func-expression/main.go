@@ -9,4 +9,8 @@ func main() {
 	}
 
 	greeting()
+	meet()
+}
+func meet() {
+	fmt.Println("meet")
 }

@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(greet("Jane ", "Doe"))
+	fmt.Println(greet("Jane ", "Doe", 34.89))
 }
 
-func greet(fname string, lname string) (s string) {
-	s = fmt.Sprint(fname, lname)
+func greet(fname string, lname string, x float64) (s string) {
+	s = fmt.Sprint(fname, lname, x)
 	return
 }
 

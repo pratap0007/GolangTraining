@@ -1,4 +1,4 @@
-package winniepooh
+package myfullname
 
 // MyName will be exported because it starts with a capital letter.
-var BearName = "Pooh"
+var Fullname = "Shiv Pratap Verma"

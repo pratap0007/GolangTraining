@@ -4,8 +4,9 @@ import "fmt"
 
 func max(numbers ...int) int {
 	var largest int
-	for _, v := range numbers {
+	for index, v := range numbers {
 		if v > largest {
+			fmt.Println(index)
 			largest = v
 		}
 	}

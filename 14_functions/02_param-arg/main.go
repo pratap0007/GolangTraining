@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	greet("Jane")
-	greet("John")
+	greet("Jane", 48)
+	greet("John", 45)
 }
 
-func greet(name string) {
-	fmt.Println(name)
+func greet(name string, x int) {
+	fmt.Println(name, x)
 }
 
 // greet is declared with a parameter
